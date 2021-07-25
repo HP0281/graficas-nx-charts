@@ -1,0 +1,17 @@
+<div class="container charts-gauge dark">
+    <ngx-charts-gauge
+  [view]="view"
+  [scheme]="colorScheme"
+  [results]="single"
+  [legend]="legend"
+  legendTitle="Tiempos por llamada"
+  [legendPosition]="legendPosition"
+  [min]="min"
+  [max]="max"
+  [units]="units"
+  (select)="onSelect($event)"
+  (activate)="onActivate($event)"
+  (deactivate)="onDeactivate($event)"
+  >
+</ngx-charts-gauge>
+</div>

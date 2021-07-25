@@ -1,0 +1,9 @@
+<div class=" grafica">
+    <ngx-charts-pie-chart 
+    
+    [scheme]="colorScheme" [results]="single" [gradient]="gradient" [legend]="showLegend"
+        [legendPosition]="legendPosition" [labels]="showLabels" [doughnut]="isDoughnut"
+        legendTitle="Aceptacion Encuesta" (select)="onSelect($event)" (activate)="onActivate($event)"
+        (deactivate)="onDeactivate($event)">
+    </ngx-charts-pie-chart>
+</div>

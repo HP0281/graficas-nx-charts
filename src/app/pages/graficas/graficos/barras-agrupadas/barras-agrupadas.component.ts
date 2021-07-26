@@ -17,7 +17,7 @@ export class BarrasAgrupadasComponent implements OnInit {
   showXAxis: boolean = true;
   showYAxis: boolean = true;
   gradient: boolean = true;
-  showLegend: boolean = true;
+  showLegend: boolean = false;
   showXAxisLabel: boolean = true;
   xAxisLabel: string = 'Fechas';
   showYAxisLabel: boolean = true;

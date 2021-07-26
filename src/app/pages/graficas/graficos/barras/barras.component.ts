@@ -11,9 +11,11 @@ export class BarrasComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
+  // si no se especifica se ajusta al componente grande
   view: any[] = [700, 400];
 
-  // options
+  // opciones de personalizacion de la grafica
   showXAxis = true;
   showYAxis = true;
   gradient = false;
@@ -22,10 +24,11 @@ export class BarrasComponent implements OnInit {
   xAxisLabel = 'Preguntas';
   showYAxisLabel = true;
   yAxisLabel = 'Promedio Preguntas';
-
+  // colores de las barras
   colorScheme = {
     domain: ['#044389', '#FDDA24', '#f93d53']
   };
+  // data a ser representada en este caso promedio de cada pregunta
   single = [
     {
       "name": "Pregunta 1",
@@ -40,7 +43,7 @@ export class BarrasComponent implements OnInit {
       "value": 4.3
     }
   ];
-
+   // eventos de la grafica
   onSelect(event) {
     console.log(event);
   }

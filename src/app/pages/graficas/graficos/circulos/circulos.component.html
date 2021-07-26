@@ -1,8 +1,6 @@
 <div class="grafica">
-    <ngx-charts-pie-grid
-  [scheme]="colorScheme"
-  [results]="single"
-  (select)="onSelect($event)"
-  label="Tiempo (Horas)">
-</ngx-charts-pie-grid>
+  <!-- [view]="view"  agregar esa etiqueta para que tome el tamaño fijo especificado en el
+    comoponente.ts-->
+  <ngx-charts-pie-grid [scheme]="colorScheme" [results]="single" (select)="onSelect($event)" label="Tiempo (Horas)">
+  </ngx-charts-pie-grid>
 </div>

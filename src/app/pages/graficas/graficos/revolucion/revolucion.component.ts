@@ -11,13 +11,16 @@ export class RevolucionComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
+  // si no se especifica se ajusta al componente que lo contiene
   view: any[] = [500, 400];
+  // opciones de personalizacion de la grafica
   legend: boolean = true;
   legendPosition: string = 'below';
   min: number =0;
   max: number =10;
   units: String = "Minutos"
-
+  //colores de las barras de la grafica
   colorScheme = {
     domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
   };

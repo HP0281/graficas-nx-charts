@@ -3,16 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-barras',
   templateUrl: './barras.component.html',
-  styleUrls: ['./barras.component.css']
+  styleUrls: ['./barras.component.css'],
 })
 export class BarrasComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
   // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
-  // si no se especifica se ajusta al componente grande
+  // si no se especifica se ajusta al componente que lo contiene
   view: any[] = [700, 400];
 
   // opciones de personalizacion de la grafica
@@ -26,24 +24,24 @@ export class BarrasComponent implements OnInit {
   yAxisLabel = 'Promedio Preguntas';
   // colores de las barras
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53']
+    domain: ['#044389', '#FDDA24', '#f93d53'],
   };
   // data a ser representada en este caso promedio de cada pregunta
   single = [
     {
-      "name": "Pregunta 1",
-      "value": 4
+      name: 'Pregunta 1',
+      value: 4,
     },
     {
-      "name": "Pregunta 2",
-      "value": 3.5
+      name: 'Pregunta 2',
+      value: 3.5,
     },
     {
-      "name": "Pregunta 3",
-      "value": 4.3
-    }
+      name: 'Pregunta 3',
+      value: 4.3,
+    },
   ];
-   // eventos de la grafica
+  // eventos de la grafica
   onSelect(event) {
     console.log(event);
   }

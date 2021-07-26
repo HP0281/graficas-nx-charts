@@ -11,8 +11,10 @@ export class TarjetasComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
+  // si no se especifica se ajusta al componente que lo contiene
   view: any[] = [700, 280];
-
+//colores de las barras de la grafica
   colorScheme = {
     domain: ['#044389', '#FDDA24', '#f93d53', '#044389', '#FDDA24', '#f93d53']
   };

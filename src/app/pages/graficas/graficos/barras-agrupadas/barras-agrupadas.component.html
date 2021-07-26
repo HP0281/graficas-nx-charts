@@ -1,21 +1,9 @@
 <div class="grafica">
-     <!-- [view]="view"  agregar esa etiqueta para que tome el tamaño fijo especificado en el
+  <!-- [view]="view"  agregar esa etiqueta para que tome el tamaño fijo especificado en el
     comoponente.ts-->
-    <ngx-charts-bar-vertical-2d
-  [scheme]="colorScheme"
-  [results]="multi"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="showLegend"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="yAxisLabel"
-  [legendTitle]="legendTitle"
-  [legendPosition]="legendPosition"
-  (select)="onSelect($event)"
-  (activate)="onActivate($event)"
-  (deactivate)="onDeactivate($event)">
-</ngx-charts-bar-vertical-2d>
+  <ngx-charts-bar-vertical-2d [scheme]="colorScheme" [results]="multi" [gradient]="gradient" [xAxis]="showXAxis"
+    [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" [legendTitle]="legendTitle" [legendPosition]="legendPosition"
+    (select)="onSelect($event)" (activate)="onActivate($event)" (deactivate)="onDeactivate($event)">
+  </ngx-charts-bar-vertical-2d>
 </div>

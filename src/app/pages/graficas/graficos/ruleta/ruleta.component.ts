@@ -11,14 +11,16 @@ export class RuletaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
+  // si no se especifica se ajusta al componente que lo contiene
   view: [number, number] = [600, 400];
 
-  // options
+  // opciones de personalizacion de la grafica
   gradient: boolean = true;
   showLegend: boolean = true;
   showLabels: boolean = true;
   isDoughnut: boolean = false;
-
+  //colores de las barras de la grafica
   colorScheme = {
     domain: ['#044389', '#FDDA24', '#f93d53']
   };

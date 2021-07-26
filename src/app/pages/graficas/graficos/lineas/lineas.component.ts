@@ -11,9 +11,11 @@ export class LineasComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
+  // si no se especifica se ajusta al componente que lo contiene
   view: any[] = [900, 350];
 
-  // options
+  // opciones de personalizacion de la grafica
   legend: boolean = true;
   showLabels: boolean = true;
   animations: boolean = true;
@@ -24,7 +26,7 @@ export class LineasComponent implements OnInit {
   xAxisLabel: string = 'Informacion de llamadas';
   yAxisLabel: string = '';
   timeline: boolean = true;
-
+  //colores de las lineas y leyendas de la grafica
   colorScheme = {
     domain: ['#044389', '#FDDA24', '#f93d53']
   };

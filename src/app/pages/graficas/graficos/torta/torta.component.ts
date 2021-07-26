@@ -11,9 +11,11 @@ export class TortaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
+  // si no se especifica se ajusta al componente que lo contiene
   view: any[] = [700, 400];
 
-  // options
+  // opciones de personalizacion de la grafica
   gradient: boolean = true;
   showLegend: boolean = false;
   showLabels: boolean = true;

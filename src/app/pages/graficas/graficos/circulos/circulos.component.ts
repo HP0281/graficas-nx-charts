@@ -11,12 +11,14 @@ export class CirculosComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tamaño de la grafica, se agrega esta etiqueta en html por si quiere dejarse el tamaño fijo
+  // si no se especifica se ajusta al componente que lo contiene
   view: any[] = [500, 400];
 
-  // options
+ // opciones de personalizacion de la grafica
   showLegend: boolean = true;
   showLabels: boolean = true;
-
+  //colores de los circulos de la grafica
   colorScheme = {
     domain: ['#044389', '#FDDA24', '#f93d53']
   };

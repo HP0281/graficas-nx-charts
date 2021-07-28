@@ -27,7 +27,7 @@ export class TimecallsComponent implements OnInit {
   xAxisLabel = 'Tiempo total (horas)';
 
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53']
+    domain: ['#9063cd','#fdda24', '#ff7f41']
   };
   schemeType: string = 'linear';
   multi = [

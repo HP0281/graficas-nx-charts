@@ -24,7 +24,7 @@ export class BarrasComponent implements OnInit {
   yAxisLabel = 'Promedio Preguntas';
   // colores de las barras
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53'],
+    domain: ['#fdda24', '#9063cd', '#ff7f41'],
   };
   // data a ser representada en este caso promedio de cada pregunta
   single = [

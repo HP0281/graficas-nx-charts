@@ -20,7 +20,7 @@ export class CirculosComponent implements OnInit {
   showLabels: boolean = true;
   //colores de los circulos de la grafica
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53']
+    domain: ['#fdda24', '#9063cd', '#ff7f41']
   };
 
   single = [

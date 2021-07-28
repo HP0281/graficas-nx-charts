@@ -26,7 +26,7 @@ export class BarrasAgrupadasComponent implements OnInit {
   legendPosition: string = 'below';
   //colores de las barras de la grafica
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53'],
+    domain: ['#fdda24', '#9063cd', '#ff7f41'],
   };
   //datos a ser representados, en este caso la informacion esta agrupada por fechas
   //y por cada fecha se sacan los valores de la cantidad de llamadas por origen

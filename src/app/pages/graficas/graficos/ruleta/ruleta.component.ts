@@ -22,7 +22,7 @@ export class RuletaComponent implements OnInit {
   isDoughnut: boolean = false;
   //colores de las barras de la grafica
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53']
+    domain: ['#fdda24', '#9063cd', '#ff7f41']
   };
 
   single = [

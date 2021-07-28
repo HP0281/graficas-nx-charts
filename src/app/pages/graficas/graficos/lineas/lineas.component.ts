@@ -28,7 +28,7 @@ export class LineasComponent implements OnInit {
   timeline: boolean = true;
   //colores de las lineas y leyendas de la grafica
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53']
+    domain: ['#fdda24', '#9063cd', '#ff7f41']
   };
 
   multi = [

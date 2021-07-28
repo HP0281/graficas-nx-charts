@@ -16,7 +16,7 @@ export class TarjetasComponent implements OnInit {
   view: any[] = [700, 280];
 //colores de las barras de la grafica
   colorScheme = {
-    domain: ['#044389', '#FDDA24', '#f93d53', '#044389', '#FDDA24', '#f93d53']
+    domain: ['#fdda24', '#9063cd', '#ff7f41', '#59cbe8','#f5b6cd','#00c389']
   };
   cardColor: string = '#232837';
 

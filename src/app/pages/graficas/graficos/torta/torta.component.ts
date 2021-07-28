@@ -23,7 +23,7 @@ export class TortaComponent implements OnInit {
   legendPosition: string = 'below';
 
   colorScheme = {
-    domain: ['#044389', '#f93d53']
+    domain: ['#9063cd', '#ff7f41']
   };
   single = [
     {
